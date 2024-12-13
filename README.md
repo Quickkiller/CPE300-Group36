@@ -1,1 +1,4 @@
 # CPE300-Group36
+Group Members: Dominic Palmieri, Christopher Sexton, Byron Billy
+
+The code for our swamp cooler utilizes many coding practices throughout the class/lab to create a functioning swamp cooler. The first few initial lines are used to set up registers for pins, LCD layouts, ISR data values, etc. This helps set up pin values for digital and analog signals, allowing us to utilize internal systems. The main loop of the code calls on 4 main functions that correspond directly to the 4 modes of the system. Our ISR is used for the disable function, which is triggered by a button press. Finally, the last lines of the code are for external functions called in the 4 main functions. These are mostly for sensor data and binary value checking/setting. This separation is important as many of these functions are used multiple times. This all comes together to make a proper and working swamp cooler.
