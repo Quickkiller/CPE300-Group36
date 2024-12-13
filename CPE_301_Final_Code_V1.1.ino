@@ -15,7 +15,6 @@ float Water_Threshold = 500;
 // Global stepper varialbs
 const int stepsPerRevolution = 2048;  // number of steps for a full revolution
 const int rolePerMinute = 10;  // rotations per minute
-Stepper myStepper(stepsPerRevolution, 8, 10, 9, 11);  // initialize the stepper library on pins 8 through 11:
 
 // LCD
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);  // set the LCD pin to 2, 3, 4, 5, 6, and 7
